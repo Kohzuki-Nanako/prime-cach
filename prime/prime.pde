@@ -2,17 +2,81 @@ class Ball {
   int ballx;
   int bally;
   int size = 100;
-  int dy = int(random(2, 6));
+  int score = 0;
+  int comb = 0;
+  int dy = int(random(4, 10));
+  int num = int(random(1, 51));
+  int primeArray[] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47};
+  int prime_num;
+  boolean isInside = false;
+  boolean isPrime = false;
   Ball(int x, int y) {
     ballx=x;
     bally=y;
   }
+
+
   void display() {
+    noStroke();
+    fill(ballx, 100, 100);
     ellipse(ballx, bally, size/2, size/2);
+    fill(0);
+    text(num, ballx, bally+3);
   }
 
   void move() {
     bally += dy;
+    if (isInside) {
+      if (int(random(2))==1) {
+        num = int(random(51));
+      } else {
+        num = primeArray[int(random(15))];
+      }
+      ballx=int(random(82, 400));
+      bally=-50;
+      dy = int(random(4, 10));
+      isInside = false;
+      isPrime=false;
+    }
+
+    if (bally > height) {
+      num = int(random(1, 50));
+      ballx=int(random(82, 400));
+      bally=-50;
+      dy = int(random(4, 10));
+      if (isPrime) {
+        comb = 0;
+        score -= 100;
+      } else {
+        score += 10;
+      }
+    }
+  }
+
+  void isCatch(int kx, int ky) {
+    if (dist(ballx, bally, kx, ky) < 45) {
+      isInside = true;
+      if (isPrime) {
+        comb += 1;
+        score += 100*(comb+1);
+      } else {
+        comb = 0;
+        score -= 200;
+      }
+    }
+  }
+
+  void prime() {
+    int cnt = 0;
+    for (int i = 2; i <= num; i++) {
+      if (num%i==0) {
+        cnt += 1;
+      }
+    }
+    if (num != 1 && cnt == 1) {
+      prime_num = num;
+      isPrime = true;
+    }
   }
 }
 
@@ -28,20 +92,17 @@ int mouseClickCnt;
 int kagoX, kagoY;
 
 long t0;
-final int LIMIT=5;
+final int LIMIT=32;
 
 
-Ball[] b;
-int n = 3;
+Ball b;
 
 void setup() {
+  imageMode(CENTER);
   colorMode(HSB, 360, 100, 100);
   size(500, 700);
-  t0 = millis();
-  b = new Ball[n];
-  for (int i=0; i<n; i++) {
-    b[i]=new Ball(-50, 100);
-  }
+  t0 = millis();  
+  b = new Ball(int(random(50, 300)), -50);
   kago = loadImage("kago.PNG");
   renga = loadImage("renga.jpeg");
   back = loadImage("back.jpg");
@@ -81,7 +142,6 @@ void start_game() {
 void go_game() {
   if (cnt >= str.length) {    
     game();
-    make_ball();
   } else {
     make_str();
     cnt ++;
@@ -99,10 +159,10 @@ void make_str() {
 
 void game() {
   frameRate(60);
-  image(back, 0, 0);
-  image(renga, -250, 0);
-  image(renga, 450, 0);
-  kagoX=mouseX-100;
+  image(back, width/2, height/2);
+  image(renga, -82, height/2);
+  image(renga, width+82, height/2);
+  kagoX=mouseX;
   kagoY=600;
   image(kago, kagoX, kagoY);
 
@@ -113,19 +173,18 @@ void game() {
   int remains=LIMIT-erapsed; //減っていく秒数
   fill(0);
   textSize(20);
-  text("time :"+remains+" sec", 5, 5, 250, 30);
+  text("time :"+remains+" sec", 135, 20);
 
-  int score=100;
-
-  gameover(remains, score);
+  make_ball(remains, kagoX, kagoY);
+  gameover(remains, b.score, b.comb);
 }
 
 void mousePressed() {
   t0=millis();
 }
-void gameover(int time, int score) {
+void gameover(int time, int score, int comb) {
   if (time == 0 ) aftergameover(score);
-  else score_display(score);
+  else score_display(score, comb);
 }
 
 void aftergameover(int score) {
@@ -149,6 +208,8 @@ void aftergameover(int score) {
   text("score", width/2, height/2-20);
   textSize(25);
   text("You click key and finish this game", width/2, height-100);
+  text("max combo : "+b.comb, width/2, height*2/3);
+  text("special prime number :"+b.prime_num, width/2, height*2/3 + 25);
 }
 void keyPressed() {
   exit();
@@ -238,17 +299,23 @@ void grdRect1(float x, float y, float w, float h) {
 
 
 
-void score_display(int score) {
-  text("socre :"+score, 0, 30, 250, 30);
+void score_display(int score, int comb) {
+  fill(0);
+  text("socre :", 113, 40);
+  text(score, 180, 40);
+  text("combo :", 115, 60);
+  text(comb, 160, 60);
 }
 
-void make_ball() {
-  for (int i=0; i < n; i++) {
-    b[i].move();
-    b[i].display();
+void make_ball(int time, int kx, int ky) {
+
+  if (time != 0) {
+    b.prime();
+    b.move();
+    b.display();
+    b.isCatch(kx, ky);
   }
 }
-
 void mouseClicked() {
   mouseClickCnt++;
   println(mouseClickCnt);
