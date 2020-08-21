@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e54c104e1f844a8cb823f500ff169bd",
+    "revision": "fea220181e45a4430157fdb137163b7c",
     "url": "/prime-catch/index.html"
   },
   {
-    "revision": "1f5821db97a62879f4fb",
+    "revision": "e515cb1c1e0ca27fceb7",
     "url": "/prime-catch/static/css/2.0c0672e5.chunk.css"
   },
   {
-    "revision": "1f5821db97a62879f4fb",
-    "url": "/prime-catch/static/js/2.d82dff84.chunk.js"
+    "revision": "e515cb1c1e0ca27fceb7",
+    "url": "/prime-catch/static/js/2.d7de2d8f.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/prime-catch/static/js/2.d82dff84.chunk.js.LICENSE.txt"
+    "url": "/prime-catch/static/js/2.d7de2d8f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96973a4fe6e422fac558",
-    "url": "/prime-catch/static/js/main.9a2594b0.chunk.js"
+    "revision": "bc5487cfe62e4d82fe4c",
+    "url": "/prime-catch/static/js/main.f42ccce6.chunk.js"
   },
   {
     "revision": "18b217d7ba0d79d7c662",
@@ -50,5 +50,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6933cb092318b6a0d5659507dc129c4d",
     "url": "/prime-catch/static/media/スクリーンショット 2020-08-21 1.14.30.6933cb09.png"
+  },
+  {
+    "revision": "1364a3fdc62ad518751444d9a79d531f",
+    "url": "/prime-catch/static/media/スクリーンショット 2020-08-21 12.57.24.1364a3fd.png"
+  },
+  {
+    "revision": "87a7d4016243dedaa458c3dae461fad4",
+    "url": "/prime-catch/static/media/スクリーンショット 2020-08-21 12.58.22.87a7d401.png"
+  },
+  {
+    "revision": "75788b430c28921ac4b3aefd397218ca",
+    "url": "/prime-catch/static/media/スクリーンショット 2020-08-21 13.03.35.75788b43.png"
   }
 ]);
