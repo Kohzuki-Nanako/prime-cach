@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="281.53009mm"
+   height="81.376991mm"
+   viewBox="0 0 281.53009 81.376991"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="title1.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3125">
+      <stop
+         style="stop-color:#2ad4ff;stop-opacity:1"
+         offset="0"
+         id="stop3121" />
+      <stop
+         style="stop-color:#ddff55;stop-opacity:0.575"
+         offset="1"
+         id="stop3123" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3099">
+      <stop
+         style="stop-color:#ff00ff;stop-opacity:1"
+         offset="0"
+         id="stop3095" />
+      <stop
+         style="stop-color:#ff6600;stop-opacity:0.496"
+         offset="1"
+         id="stop3097" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3089">
+      <stop
+         style="stop-color:#fffc00;stop-opacity:1"
+         offset="0"
+         id="stop3085" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:0;"
+         offset="1"
+         id="stop3087" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3071">
+      <stop
+         style="stop-color:#ff10d1;stop-opacity:0.81568629"
+         offset="0"
+         id="stop3067" />
+      <stop
+         style="stop-color:#0cf1df;stop-opacity:0.38431373"
+         offset="1"
+         id="stop3069" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3061">
+      <stop
+         style="stop-color:#eb0034;stop-opacity:1"
+         offset="0"
+         id="stop3057" />
+      <stop
+         style="stop-color:#ac55f6;stop-opacity:0.165"
+         offset="1"
+         id="stop3059" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3027">
+      <stop
+         style="stop-color:#ff9e55;stop-opacity:0.784"
+         offset="0"
+         id="stop3023" />
+      <stop
+         style="stop-color:#80ff9a;stop-opacity:0"
+         offset="1"
+         id="stop3025" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2992"
+       inkscape:collect="always">
+      <stop
+         id="stop2998"
+         offset="0"
+         style="stop-color:#6800f4;stop-opacity:1" />
+      <stop
+         id="stop3000"
+         offset="1"
+         style="stop-color:#00f11b;stop-opacity:0.22745098" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2414"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#406040;stop-opacity:1;"
+         offset="0"
+         id="stop2412" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter2872">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2862" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2864" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2.7"
+         result="blur"
+         id="feGaussianBlur2866" />
+      <feOffset
+         dx="3.8"
+         dy="2.1"
+         result="offset"
+         id="feOffset2868" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite2870" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix2874" />
+      <feFlood
+         id="feFlood2876"
+         flood-opacity="0.305882"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite2878"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur2880"
+         in="composite1"
+         stdDeviation="2.7"
+         result="blur" />
+      <feOffset
+         id="feOffset2882"
+         dx="3.8"
+         dy="2.1"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite2884"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2992"
+       id="linearGradient3003"
+       gradientUnits="userSpaceOnUse"
+       x1="-14.35111"
+       y1="129.01826"
+       x2="-1.4999188"
+       y2="111.63136"
+       gradientTransform="translate(223.38394,-256.14663)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3027"
+       id="linearGradient3029"
+       x1="-44.211227"
+       y1="113.89921"
+       x2="-17.374918"
+       y2="128.2623"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-103.51685,-386.62101)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3061"
+       id="linearGradient3063"
+       x1="-43.077297"
+       y1="110.87541"
+       x2="-18.130873"
+       y2="116.16708"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.52913385,0,0,0.48103076,163.51432,-207.19024)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3071"
+       id="linearGradient3073"
+       x1="-24.934441"
+       y1="142.43642"
+       x2="-9.4374208"
+       y2="103.1269"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(52.91667,-293.18831)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3089"
+       id="linearGradient3091"
+       x1="-43.833254"
+       y1="150.37392"
+       x2="-6.7915859"
+       y2="150.37392"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1482475,0,0,1.0047166,146.34936,-12.52635)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3099"
+       id="linearGradient3101"
+       x1="14.595054"
+       y1="228.0345"
+       x2="19.39514"
+       y2="238.66162"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.8760188,0,0,1.772704,-113.9706,-546.15693)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3125"
+       id="linearGradient3131"
+       x1="21.17865"
+       y1="232.20576"
+       x2="57.086388"
+       y2="232.20576"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(207.8869,-55.940476)" />
+    <font
+       horiz-adv-x="1024"
+       id="font3133"
+       inkscape:label="フォント 1">
+      <font-face
+         units-per-em="1024"
+         id="font-face3135"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph3137" />
+    </font>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="828.59984"
+     inkscape:cy="18.118292"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="770"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-9.0834134,-114.35407)"
+     style="display:inline">
+    <circle
+       style="opacity:0.78399999;fill:url(#linearGradient3131);fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="path3103"
+       cx="247.01942"
+       cy="176.26529"
+       r="17.953869" />
+    <ellipse
+       style="opacity:0.34599998;fill:url(#linearGradient3101);fill-opacity:1;stroke:none;stroke-width:0.48250219"
+       id="path3093"
+       cx="-82.393547"
+       cy="-131.84462"
+       rx="11.699999"
+       ry="11.725705"
+       transform="scale(-1)" />
+    <ellipse
+       style="opacity:0.38500001;fill:url(#linearGradient3073);fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="path3065"
+       cx="30.817055"
+       cy="-172.67451"
+       rx="20.599701"
+       ry="21.166666"
+       transform="scale(1,-1)" />
+    <circle
+       style="opacity:0.34599998;fill:url(#linearGradient3063);fill-opacity:1;stroke:none;stroke-width:0.13348477"
+       id="path3031"
+       cx="147.72069"
+       cy="-153.85571"
+       transform="rotate(90)"
+       r="7" />
+    <circle
+       style="opacity:0.3800001;fill:url(#linearGradient3003);fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="path2962"
+       cx="214.51347"
+       cy="-135.82182"
+       r="10.772322"
+       transform="scale(1,-1)" />
+    <ellipse
+       style="opacity:0.7;fill:url(#linearGradient3029);fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="path3011"
+       cx="-131.66409"
+       cy="-272.7218"
+       rx="16.441963"
+       ry="16.819941"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot10"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion12"><rect
+           id="rect14"
+           width="691.42859"
+           height="291.42856"
+           x="45.714287"
+           y="76.805397" /></flowRegion><flowPara
+         id="flowPara16"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:7.11539078px;line-height:1.25;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#1ce8ff;fill-opacity:1;stroke:none;stroke-width:0.17788477;filter:url(#filter2872)"
+       x="37.869961"
+       y="141.41245"
+       id="text20"
+       transform="scale(0.81505957,1.2269042)"><tspan
+         sodipodi:role="line"
+         x="37.869961"
+         y="141.41245"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:33.20515823px;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1ce8ff;fill-opacity:1;stroke-width:0.17788477"
+         id="tspan26">Prime Catcher!</tspan></text>
+    <text
+       transform="scale(0.81505957,1.2269042)"
+       id="text32"
+       y="138.33171"
+       x="34.160038"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:7.11539078px;line-height:1.25;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffe6;fill-opacity:1;stroke:none;stroke-width:0.17788477"
+       xml:space="preserve"><tspan
+         id="tspan30"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:33.20515823px;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#80ffe6;stroke-width:0.17788477"
+         y="138.33171"
+         x="34.160038"
+         sodipodi:role="line">Prime Catcher!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:7.11539078px;line-height:1.25;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffe6;fill-opacity:1;stroke:none;stroke-width:0.17788477"
+       x="34.160038"
+       y="138.33171"
+       id="text937"
+       transform="scale(0.81505957,1.2269042)"><tspan
+         sodipodi:role="line"
+         x="34.160038"
+         y="138.33171"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:33.20515823px;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#80ffe6;stroke-width:0.17788477"
+         id="tspan935">Prime Catcher!</tspan></text>
+    <text
+       transform="scale(0.81505957,1.2269042)"
+       id="text961"
+       y="138.33171"
+       x="34.160038"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:7.11539078px;line-height:1.25;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffe6;fill-opacity:1;stroke:none;stroke-width:0.17788477"
+       xml:space="preserve"><tspan
+         id="tspan959"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:33.20515823px;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#80ffe6;stroke-width:0.17788477"
+         y="138.33171"
+         x="34.160038"
+         sodipodi:role="line">Prime Catcher!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:7.11539078px;line-height:1.25;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#80ffb3;fill-opacity:1;stroke:none;stroke-width:0.17788477"
+       x="34.160038"
+       y="138.33171"
+       id="text965"
+       transform="scale(0.81505957,1.2269042)"><tspan
+         sodipodi:role="line"
+         x="34.160038"
+         y="138.33171"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:33.20515823px;font-family:'ヒラギノ角ゴ StdN';-inkscape-font-specification:'ヒラギノ角ゴ StdN, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#80ffb3;fill-opacity:1;stroke-width:0.17788477"
+         id="tspan963">Prime Catcher!</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2913"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'ヒラギノ丸ゴ Pro';-inkscape-font-specification:'ヒラギノ丸ゴ Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.21762847,0,0,0.18056373,61.449296,111.36591)"><flowRegion
+         id="flowRegion2915"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'ヒラギノ丸ゴ Pro';-inkscape-font-specification:'ヒラギノ丸ゴ Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><rect
+           id="rect2917"
+           width="582.85712"
+           height="85.714272"
+           x="154.28572"
+           y="379.4151"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:'ヒラギノ丸ゴ Pro';-inkscape-font-specification:'ヒラギノ丸ゴ Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+         id="flowPara2921"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.66666412px;font-family:'ヒラギノ丸ゴ Pro';-inkscape-font-specification:'ヒラギノ丸ゴ Pro, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d">素数であそぼう</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2923"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,87)"><flowRegion
+         id="flowRegion2925"><rect
+           id="rect2927"
+           width="271.42856"
+           height="54.285713"
+           x="431.42856"
+           y="416.55795" /></flowRegion><flowPara
+         id="flowPara2929"></flowPara></flowRoot>    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 33.584211,180.00573 c 237.747009,0.37798 237.369049,0.37798 237.369049,0.37798 v 0 z"
+       id="path2941"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="opacity:0.38500001;fill:url(#linearGradient3091);fill-opacity:1;stroke:none;stroke-width:0.28418556"
+       id="path3075"
+       cx="117.28444"
+       cy="138.55682"
+       r="21.2665" />
+  </g>
+</svg>
