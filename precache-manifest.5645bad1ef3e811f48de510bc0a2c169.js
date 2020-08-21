@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fea220181e45a4430157fdb137163b7c",
+    "revision": "e31066e0c490413dd2b549b10d95d37a",
     "url": "/prime-catch/index.html"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prime-catch/static/js/2.d7de2d8f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc5487cfe62e4d82fe4c",
-    "url": "/prime-catch/static/js/main.f42ccce6.chunk.js"
+    "revision": "73ed97b3d1ae074d1e32",
+    "url": "/prime-catch/static/js/main.d808ef9f.chunk.js"
   },
   {
     "revision": "18b217d7ba0d79d7c662",
     "url": "/prime-catch/static/js/runtime-main.31a94d60.js"
+  },
+  {
+    "revision": "0e8bc24af6035ebdc7959a95211b6831",
+    "url": "/prime-catch/static/media/IMG_2295.0e8bc24a.PNG"
   },
   {
     "revision": "7e5dd798d05081dd2a45fa9fd2312a6c",
@@ -58,9 +62,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "87a7d4016243dedaa458c3dae461fad4",
     "url": "/prime-catch/static/media/スクリーンショット 2020-08-21 12.58.22.87a7d401.png"
-  },
-  {
-    "revision": "75788b430c28921ac4b3aefd397218ca",
-    "url": "/prime-catch/static/media/スクリーンショット 2020-08-21 13.03.35.75788b43.png"
   }
 ]);
