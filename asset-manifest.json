@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/prime-catch/static/js/main.a3ba6e1c.chunk.js",
-    "main.js.map": "/prime-catch/static/js/main.a3ba6e1c.chunk.js.map",
+    "main.js": "/prime-catch/static/js/main.1723c23a.chunk.js",
+    "main.js.map": "/prime-catch/static/js/main.1723c23a.chunk.js.map",
     "runtime-main.js": "/prime-catch/static/js/runtime-main.31a94d60.js",
     "runtime-main.js.map": "/prime-catch/static/js/runtime-main.31a94d60.js.map",
     "static/css/2.0c0672e5.chunk.css": "/prime-catch/static/css/2.0c0672e5.chunk.css",
     "static/js/2.fc1a6853.chunk.js": "/prime-catch/static/js/2.fc1a6853.chunk.js",
     "static/js/2.fc1a6853.chunk.js.map": "/prime-catch/static/js/2.fc1a6853.chunk.js.map",
     "index.html": "/prime-catch/index.html",
-    "precache-manifest.e2d7dbb40196bf5210daef22834ac31c.js": "/prime-catch/precache-manifest.e2d7dbb40196bf5210daef22834ac31c.js",
+    "precache-manifest.df90e768905e1ac8699560defd8e6a0e.js": "/prime-catch/precache-manifest.df90e768905e1ac8699560defd8e6a0e.js",
     "service-worker.js": "/prime-catch/service-worker.js",
     "static/css/2.0c0672e5.chunk.css.map": "/prime-catch/static/css/2.0c0672e5.chunk.css.map",
     "static/js/2.fc1a6853.chunk.js.LICENSE.txt": "/prime-catch/static/js/2.fc1a6853.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.31a94d60.js",
     "static/css/2.0c0672e5.chunk.css",
     "static/js/2.fc1a6853.chunk.js",
-    "static/js/main.a3ba6e1c.chunk.js"
+    "static/js/main.1723c23a.chunk.js"
   ]
 }

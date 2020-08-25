@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0da3241b3af0e2e51b1001397e6eed52",
+    "revision": "ab70890e199efe919e50398cc859a484",
     "url": "/prime-catch/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/prime-catch/static/js/2.fc1a6853.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "024896ab299ef9c316c5",
-    "url": "/prime-catch/static/js/main.a3ba6e1c.chunk.js"
+    "revision": "abc6141f73847ee33b7f",
+    "url": "/prime-catch/static/js/main.1723c23a.chunk.js"
   },
   {
     "revision": "18b217d7ba0d79d7c662",
