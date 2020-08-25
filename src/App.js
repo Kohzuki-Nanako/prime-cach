@@ -1,4 +1,6 @@
 import React from "react";
+import {HashLink} from "react-router-hash-link";
+import {MemoryRouter} from "react-router-dom"
 import title from "./media/title1.png"
 import poster from "./media/poster.png"
 import icon from "./media/スクリーンショット 2020-08-21 1.14.30.png"
@@ -20,10 +22,10 @@ const App = () => {
   return (
     <div>
      <section>
-     <div class="container is-fluid">
-     <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
+     <div className="container is-fluid">
+     <nav className="navbar" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
+            <a className="navbar-item" href="https://Kohzuki-Nanako.github.io/prime-catch/">
             <svg width="120" height="40">
                 <defs>
                     <linearGradient id="myGradient1" gradientTransform="rotate(90)">
@@ -61,25 +63,29 @@ const App = () => {
             </a>
         </div>
         <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="https://Kohzuki-Nanako.github.io/prime-catch/">
-                    Home
+            <div className="navbar-start">
+                <MemoryRouter>
+                    <HashLink smooth to = "/hoge#link1"><a class="navbar-item"><font size="5">Home</font></a></HashLink>
+                </MemoryRouter>  
+                
+                <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1R-MfvJREC6fU_i3Kzew1MzH8dvE0t16H/view?usp=sharing">
+                     <font size="4">企画書</font>
                 </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                     企画書
+                <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1swwZ3JHIFko4t_RG12g7UiPIWmqQ1Ubf/view?usp=sharing">
+                     <font size="4">仕様書</font>
                 </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                     仕様書
+                <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1yDljSD1ZbMHOMVAvCsyWQ6oXf8angy2Z/view?usp=sharing">
+                     <font size="4">最終レポート</font>
                 </a>
-                <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                     ポスター
+                <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Ll0aXIROUh4Iac_aIsvL5TiDJsGjSW4T/view?usp=sharing">
+                     <font size="4">ポスター</font>
                 </a>
             </div>
-            <div class="navbar-end">
-             <div class="navbar-item">
-                <div class="field is-grouped">
-                    <p class="control">
-                        <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://Kohzuki-Nanako.github.io/prime-catch/" target="_blank" href="https://twitter.com/intent/tweet?text=簡単短時間で学習ゲーム！？Prime Catcher！であそぼう&amp;hashtags=primecatcher&amp;url=https://Kohzuki-Nanako.github.io/prime-catch/">
+            <div className="navbar-end">
+             <div className="navbar-item">
+                <div className="field is-grouped">
+                    <p className="control">
+                        <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://Kohzuki-Nanako.github.io/prime-catch/" target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=簡単短時間で学習ゲーム！？Prime Catcher！であそぼう&amp;hashtags=primecatcher&amp;url=https://Kohzuki-Nanako.github.io/prime-catch/">
                             <span class="icon">
                                 <i class="fab fa-twitter"></i>
                             </span>
@@ -88,14 +94,19 @@ const App = () => {
                             </span>
                         </a>
                     </p>
-                    <p class="control">
-                        <a class="button is-primary" href="./src/prime.zip"　download="prime.zip">
-                        <span class="icon">
-                            <i class="fas fa-download"></i>
+                    <p className="control">
+                        <a className="button is-primary" href="https://drive.google.com/file/d/1CL3nHGe-OKfNIp0zfRiFRqPsFBE2S32_/view?usp=sharing">
+                        <span className="icon">
+                            <i className="fas fa-download"></i>
                         </span>
                         <span>Download</span>
                         </a>
                     </p>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true">Tweet</span>
+                        <span aria-hidden="true">Download</span>
+                        <span aria-hidden="true">Download</span>
+                    </a>
                 </div>
              </div>
             </div>
@@ -103,42 +114,53 @@ const App = () => {
      </nav>
      </div>
      </section>
-      <section class="hero">
-        <div class="hero-body">            
-        <figure class="image is-400x80">
+      <section className="hero">
+        <div className="hero-body">            
+        <figure className="image is-3by1">
             <img src={title} alt ="title"/>
         </figure>
          
         </div>
       </section>
       <section>
-        <div class="container is-fluid">
-            <div class="notification">
-                <div class="columns is-vcentered">
-                    <div class="column is-4">
-                    <p class="title">Please Tweet Game</p>
-                        <div class="card">
-                            <div class="card-image">
-                                <a href="https://twitter.com/intent/tweet?text=簡単短時間で学習ゲーム！？Prime Catcher！であそぼう&amp;hashtags=primecatcher&amp;url=https://Kohzuki-Nanako.github.io/prime-catch/">
-                                <figure class="image is-square">
+        <div className="container">
+            <div className="notification">
+                <div className="columns is-vcentered" id = "link1">
+                    <div className="column is-4">
+                    <p className="title">Please Tweet Game</p>
+                        <p>かき氷チームが開発した「Prime Catcher」をTweetしてくれませんか？</p>
+                        <p>Tweetは右上の
+                        <a className="bd-tw-button button">
+                            <span class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span>
+                                Tweet
+                            </span>
+                        </a>をクリック！または、以下👇👇をクリックしてね！</p>
+                        <br/>
+                        <div className="card">
+                            <div className="card-image">
+                                <a target="_blank" rel="noopener noreferrer"　href="https://twitter.com/intent/tweet?text=簡単短時間で学習ゲーム！？Prime Catcher！であそぼう&amp;hashtags=primecatcher&amp;url=https://Kohzuki-Nanako.github.io/prime-catch/">
+                                <figure className="image is-square">
                                   <img src={poster} alt="ポスター"/>
                                 </figure>
                                 </a>
                             </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-48x48">
+                        <div className="card-content">
+                            <div className="media">
+                                <div className="media-left">
+                                    <figure className="image is-48x48">
                                     <img src={icon} alt="girl"/>
                                     </figure>
                                 </div>
-                             <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
+                             <div className="media-content">
+                                <p className="title is-4">John Smith</p>
+                                <p className="subtitle is-6">@daisuki_kakigori</p>
                             </div>
                         </div>
 
-                        <div class="content">
+                        <div className="content">
                             短時間で頭が良くなる！？学習型ゲーム「Prime Catcher!」を今すぐPlay！<br/>
                              <a href="https://github.com/Kohzuki-Nanako/prime-catch.git"><font size="4" color="#0000ff">@primeCatcher</font></a>　
                              <a href="https://github.com/Kohzuki-Nanako/prime-catch.git"><font size="4" color="#0000ff">#prime</font></a>　
@@ -150,10 +172,10 @@ const App = () => {
                         </div>
                     </div>
                     </div>
-                    <br/><br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     </div>
-                    <div class="column">
-                        <p class="title">About Game</p>
+                    <div className="column">
+                        <p className="title">About Game</p>
                         <svg width="500" height="80">
                             <defs>
                                 <linearGradient id="myGradient" gradientTransform="rotate(90)">
@@ -166,7 +188,7 @@ const App = () => {
                             <text x = {150} y = {40} textAnchor = "middle" fill = "black" fontSize = "30">1.　どんなゲーム？</text>
                             <line x1 ={0} y1 = {70} x2={500} y2 ={70} stroke="silver" /> 
                         </svg>
-                        <p class="bd-notification is-primary">
+                        <p className="bd-notification is-primary">
                             このゲームは、素数の書かれたボールを制限時間30秒でたくさん集めて、その獲得を競うものとなっています。<br/>
                             落ちてくるボールの速度はランダムで変わるので集中力が高められるほか、素数かどうかの瞬時の判断力が高められます。<br/>
 
@@ -183,7 +205,7 @@ const App = () => {
                             <text x = {140} y = {55} textAnchor = "middle" fill = "black" fontSize = "30">2.　誰でもできる</text>
                             <line x1 ={0} y1 = {80} x2={500} y2 ={80} stroke="silver" /> 
                         </svg>
-                        <p class="bd-notification is-primary">
+                        <p className="bd-notification is-primary">
                             操作方法は、マウスクリック１回、キーボードクリック１回、あとは左右のマウス操作だけで遊ぶことができます。<br/>
                             したがって、小学生低学年からお年寄りのどの年代の方にも遊んでいただけます。<br/>
                          </p>
@@ -200,22 +222,22 @@ const App = () => {
                             <text x = {80} y = {50} textAnchor = "middle" fill = "black" fontSize = "30">3.　参考</text>
                             <line x1 ={0} y1 = {75} x2={500} y2 ={75} stroke="silver" /> 
                         </svg>
-                        <p class="bd-notification is-primary">
+                        <p className="bd-notification is-primary">
                             このゲームは、Panasonic社が発売している「Panasonic Prime　Smash！」というアプリを模倣して作られました。<br/>
                             このゲームと「Prime Smash!」さんの違いは、より単純で簡単なゲームだというところです。<br/>
                             公式ページは、
                             <a href="https://www.panasonic.com/jp/corporate/profile/apps/primesmash.html">
                                 <font size="4" color="#0000ff">コチラ</font>
                             </a>
-                            <div class="columns is-gapless">
-                                <div class="column">
+                            <div className="columns is-gapless">
+                                <div className="column">
                                     <a href="https://apps.apple.com/jp/app/panasonic-prime-smash/id428236791">  
                                         <figure class="image is-128x128">
                                             <img src = {smash1} alt ="smash1"/>
                                         </figure>
                                     </a>
                                 </div>
-                                <div class="column is-three-fifths">
+                                <div className="column is-three-fifths">
                                     <br/>
                                     <font size="4" color="black" fontWweight="bolder" >Panasonic Prime Smash!</font><br/>
                                     <font size="3" color="gray">素数を探すパズルアクション</font><br/>
@@ -223,75 +245,94 @@ const App = () => {
                                 </div>
                             </div>
                          </p>
-                         
-                         <div class="columns  ">
-                         <div class="column has-text-centered">
+                         <br/>
+                         <div className="columns">
+                         <div className="column has-text-centered">
                              <figure class="image is-3by2">
                               <img src = {smash2} alt ="smash2"/>
                              </figure>
                          </div>
-                         <div class="column">
+                         <div className="column">
                             <figure class="image is-3by2">
                                 <img src = {smash3} alt ="smash3"/>
                             </figure>
                          </div>
                         </div>
+                        <br/><br/><br/><br/><br/><br/>
                     </div>
-                    <div class="column has-text-centered">
-                        <p class="title">Game description</p>  
-                        <div class="columns is-gapless ">
-                            <div class="column">
+                    <div className="column has-text-centered">
+                        <p className="title">Game description</p>  
+                        <div className="columns has-text-centered">
+                            <div className="column">
                               【スタート画面】<br/><br/>
                               どこでもいいので、マウスで画面を１度クリックしてください。<br/>
                               次の画面に移ります。
                             </div>
-                            <div class="column ">
-                                <figure class="image is-128x128">
-                                    <img src = {start1} alt ="start1"/>
-                                </figure>
+                            <div className="column ">
+                             <div className="media">
+                                <div className="media-right">
+                                    <figure className="image is-128x128">
+                                        <img src = {start1} alt ="start1"/>
+                                    </figure>
+                                </div>
+                             </div>
                             </div>  
                         </div>
-                        <div class="columns is-gapless">
-                            <div class="column">
+                        <div className="columns has-text-centered">
+                            <div className="column">
                                 <br/>
-                                <figure class="image is-128x128">
-                                    <img src = {start2} alt ="start2"/>
-                                </figure>
+                                【遷移画面】<br/><br/>
+                                ゲームが始まるまでに遷移画面として<br/>「Are you ready?」「Start!!」と書かれた画面が表示されます。
                             </div>
-                            <div class="column">
-                              <br/>
-                             【遷移画面】<br/><br/>
-                             ゲームが始まるまでに遷移画面として<br/>「Are you ready?」「Start!!」と書かれた画面が表示されます。
-                            </div>  
+                            <div className="column">
+                                <br/>
+                                <div className="media">
+                                <div className="media-right">
+                                    <figure className="image is-128x128">
+                                        <img src = {start2} alt ="start2"/>
+                                    </figure>
+                                </div>
+                             </div>
+                            </div>
+                              
                         </div>
-
-                        <div class="columns is-gapless">
-                            <div class="column">
+                        <br/><br/>
+                        <div className="columns has-text-centered">
+                            <div className="column">
                              【プレイ画面】<br/><br/>
                              実際にゲームをプレイしている画面です。<br/>
                              上から数字が書かれているボールが落ちてくるのでその数字が素数であるならば、かごでキャッチします。
                             </div> 
-                            <div class="column">
+                            <div className="column">
                             <br/>
-                                <figure class="image is-128x128">
+                             <div className="media">
+                                <div className="media-right">
+                                <figure className="image is-128x128">
                                     <img src = {game} alt ="game"/>
                                 </figure>
+                                </div>
+                             </div>
                             </div>
                         </div>
-
-                        <div class="columns is-gapless">
-                            <div class="column">
-                                <br/>
-                                <figure class="image is-128x128">
+                        <br/><br/>
+                        <div className="columns has-text-centered">
+                            <div className="column">
+                                【ゲーム終了画面】<br/><br/>
+                                ゲームが終了した時に出てくる画面です。<br/>
+                                青文字はスコアです。<br/>
+                                また、最大コンボ数や、獲得した素数のボールから覚えて欲しい素数をコンピューターが選んで表示します。
+                            </div>  
+                            <div className="column">
+                            <br/>
+                             <div className="media">
+                                <div className="media-right">
+                                <figure className="image is-128x128">
                                     <img src = {gameOver} alt ="Over"/>
                                 </figure>
+                                </div>
+                             </div>
                             </div>
-                            <div class="column">
-                             【ゲーム終了画面】<br/><br/>
-                             ゲームが終了した時に出てくる画面です。<br/>
-                             青文字はスコアです。<br/>
-                             また、最大コンボ数や、獲得した素数のボールから覚えて欲しい素数をコンピューターが選んで表示します。
-                            </div>   
+                             
                         </div>
                     </div>
                 </div>
@@ -300,10 +341,10 @@ const App = () => {
         </div>
       </section>
   
-      <footer class="footer">
-        <div class="content has-text-centered">
+      <footer className="footer">
+        <div className="content has-text-centered">
          <p>
-            <strong>©︎2020 Prime-Catcher</strong> by <i className="fab fa-github fa-2x"></i><a href="https://github.com/Kohzuki-Nanako/prime-catch">Github</a>        
+            <strong>©︎2020 かき氷</strong> by <i className="fab fa-github fa-2x"></i><a href="https://github.com/Kohzuki-Nanako/prime-catch">Prime-Catcher</a>        
         </p>
         </div>
     　</footer>
